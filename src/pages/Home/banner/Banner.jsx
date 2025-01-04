@@ -3,12 +3,12 @@ import { Typewriter } from "react-simple-typewriter";
 
 const Banner = () => {
   return (
-    <div className="bg-[#FFF5EB]">
+    <div className="pt-20">
       <div className="w-11/12 mx-auto flex items-center justify-center">
         <div className="px-4 lg:flex lg:items-center">
           {/* Left Content */}
           <div className="lg:w-1/2 text-center lg:text-left mt-8 md:mt-0">
-            <p className="text-orange-600 text-xl font-bold flex items-center justify-center lg:justify-start">
+            <p className="text-primary text-xl font-bold flex items-center justify-center lg:justify-start">
               Hi, I&apos;m passionate about coding!
             </p>
             <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold mt-2">
@@ -40,7 +40,7 @@ const Banner = () => {
                     "_blank"
                   )
                 }
-                className="btn text-white bg-primary mt-6 px-6 py-2 hover:bg-black text-lg transition-all"
+                className="btn text-white border-none bg-primary mt-6 px-6 py-2 hover:text-black hover:bg-white text-lg transition-all"
               >
                 Download My CV
               </button>
@@ -89,9 +89,9 @@ const Banner = () => {
                   className="transition-transform hover:scale-110"
                 >
                   <img
-                    src="https://i.ibb.co.com/CWkQgF5/icons8-github-48.png"
-                    alt="Instagram"
-                    className="w-8 h-8 rounded-full"
+                    src="https://i.imgur.com/oATe77x.png"
+                    alt="Github"
+                    className="w-8 h-8 rounded-full bg-white"
                   />
                 </a>
               </div>
