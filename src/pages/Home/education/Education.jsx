@@ -10,7 +10,7 @@ const Education = () => {
     <div
       data-aos="fade-up"
       data-aos-duration="1000"
-      className="w-11/12 mx-auto min-h-screen flex flex-col items-center my-28"
+      className="w-11/12 mx-auto min-h-screen flex flex-col items-center py-28"
     >
       {/* Header Section */}
       <h1 className="text-3xl font-bold text-center mb-12">

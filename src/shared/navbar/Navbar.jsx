@@ -78,7 +78,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="navbar fixed bg-[#051129] px-10">
+    <div className="navbar fixed z-50 bg-[#051129] px-10">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -114,7 +114,7 @@ const Navbar = () => {
 
       <div className="navbar-end">
         <div className="p-2">
-          <button className="w-full px-8 py-3 text-lg text-white hover:text-black hover:bg-white  bg-primary rounded-lg">
+          <button className="w-full px-8 py-3 text-lg text-white hover:text-black hover:bg-white  bg-primary rounded-lg duration-300">
             Hire Me
           </button>
         </div>

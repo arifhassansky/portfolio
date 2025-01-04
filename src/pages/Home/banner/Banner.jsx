@@ -40,7 +40,7 @@ const Banner = () => {
                     "_blank"
                   )
                 }
-                className="btn text-white border-none bg-primary mt-6 px-6 py-2 hover:text-black hover:bg-white text-lg transition-all"
+                className="btn text-white border-none bg-primary mt-6 px-6 py-2 hover:text-black hover:bg-white text-lg transition-all duration-300"
               >
                 Download My CV
               </button>
