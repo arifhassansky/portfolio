@@ -1,25 +1,16 @@
 import Aos from "aos";
-import { useEffect } from "react";
-
-const projects = [
-  {
-    name: "Roomify",
-    image: "https://i.ibb.co.com/6PyDQKV/Screenshot-2025-01-05-001306.png",
-    link: "https://roomifysky.netlify.app",
-  },
-  {
-    name: "Visa Navigator",
-    image: "https://i.ibb.co.com/vdR5Zsq/Screenshot-2025-01-05-001156.png",
-    link: "https://visa-navigator.netlify.app",
-  },
-  {
-    name: "Lingo Bingo",
-    image: "https://i.ibb.co.com/2vxpZWx/Screenshot-2025-01-05-001030.png",
-    link: "https://lingo-bingo.netlify.app/",
-  },
-];
+import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 function Projects() {
+  const [projects, setProjects] = useState([]);
+
+  useEffect(() => {
+    fetch("Projects.json")
+      .then((res) => res.json())
+      .then((data) => setProjects(data));
+  }, []);
+
   useEffect(() => {
     Aos.init();
   }, []);
@@ -43,12 +34,12 @@ function Projects() {
               />
               <div className="p-4 text-center">
                 <h3 className="text-xl font-bold">{project.name}</h3>
-                <a
-                  href={project.link}
-                  className="inline-block px-4 py-2 bg-primary text-white rounded-md hover:bg-green-700 transition-colors"
+                <Link
+                  to={`/details/${project.id}`}
+                  className="inline-block px-4 py-2 bg-primary text-white rounded-md hover:bg-black hover:text-white transition-colors"
                 >
                   View More
-                </a>
+                </Link>
               </div>
             </div>
           ))}

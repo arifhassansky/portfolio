@@ -45,7 +45,7 @@ const Contact = () => {
         </div>
         <div className="flex flex-col md:flex-row justify-around items-center">
           {/* Left Section: Form */}
-          <div className="flex-1rounded-lg shadow-lg p-8">
+          <div className="rounded-lg shadow-lg p-8">
             <h3 className="text-3xl font-semibold  mb-6">Contact Us</h3>
             <form onSubmit={sendEmail} ref={form} className="space-y-6">
               <div className="flex flex-col md:flex-row gap-6">
