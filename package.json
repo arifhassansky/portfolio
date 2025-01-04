@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "aos": "^2.3.4",
     "localforage": "^1.10.0",
     "match-sorter": "^8.0.0",
@@ -19,7 +20,9 @@
     "react-router-dom": "^7.1.1",
     "react-scroll-to-top": "^3.0.0",
     "react-simple-typewriter": "^5.0.1",
-    "sort-by": "^1.2.0"
+    "sort-by": "^1.2.0",
+    "sweetalert2": "^11.15.10",
+    "typewriter-effect": "^2.21.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",

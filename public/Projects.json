@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "Lingo Bingo",
+    "image": "https://via.placeholder.com/300x200",
+    "link": "#",
+    "techStack": "React, Firebase, Tailwind CSS, React Router DOM, React CountUp, AOS, React Toastify",
+    "description": "Lingo Bingo is a fun and interactive language learning application designed to help users expand their vocabulary and improve communication skills in a specific language. With features like vocabulary lessons, tutorials, and audio pronunciation, this app makes learning enjoyable and effective.",
+    "liveLink": "https://lingo-bingo.netlify.app/",
+    "githubLink": "https://github.com/yourusername/lingo-bingo",
+    "challenges": "Faced challenges in implementing responsive design across multiple devices and integrating Google Sign-In with Firebase for user authentication.",
+    "improvements": "Planning to enhance the performance by optimizing images, lazy loading, adding more language support, and incorporating interactive quizzes."
+  }
+]
