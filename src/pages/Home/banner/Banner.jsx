@@ -45,7 +45,7 @@ const Banner = () => {
                 Download My CV
               </button>
               {/* Social Icons */}
-              <div className="flex ml-36 mt-6 space-x-4 justify-center lg:justify-start">
+              <div className="flex ml-20 mt-6 space-x-4 justify-center lg:justify-start">
                 <a
                   href="https://www.facebook.com/arifhearthacker/"
                   target="_blank"
@@ -99,7 +99,7 @@ const Banner = () => {
           </div>
 
           {/* Right Image */}
-          <div className="lg:w-1/2 mt-8 lg:mt-0 flex justify-end">
+          <div className="lg:w-1/2 mt-8 flex justify-end">
             <img src={myPicture} alt="Arif Hassan" />
           </div>
         </div>
