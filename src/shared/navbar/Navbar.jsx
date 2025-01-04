@@ -17,14 +17,62 @@ const Navbar = () => {
       </li>
       <li>
         <NavLink
-          to="/About"
+          to="/about"
           className={({ isActive }) =>
             isActive
-              ? "font-bolda px-4 py-2 rounded"
+              ? "font-bold px-4 py-2 rounded text-primary"
               : "px-4 py-2 rounded hover:text-primary"
           }
         >
           About
+        </NavLink>
+      </li>
+      <li>
+        <NavLink
+          to="/skills"
+          className={({ isActive }) =>
+            isActive
+              ? "font-bold px-4 py-2 rounded text-primary"
+              : "px-4 py-2 rounded hover:text-primary"
+          }
+        >
+          Skills
+        </NavLink>
+      </li>
+      <li>
+        <NavLink
+          to="/education"
+          className={({ isActive }) =>
+            isActive
+              ? "font-bold px-4 py-2 rounded text-primary"
+              : "px-4 py-2 rounded hover:text-primary"
+          }
+        >
+          Education
+        </NavLink>
+      </li>
+      <li>
+        <NavLink
+          to="/projects"
+          className={({ isActive }) =>
+            isActive
+              ? "font-bold px-4 py-2 rounded text-primary"
+              : "px-4 py-2 rounded hover:text-primary"
+          }
+        >
+          Projects
+        </NavLink>
+      </li>
+      <li>
+        <NavLink
+          to="/contacts"
+          className={({ isActive }) =>
+            isActive
+              ? "font-bold px-4 py-2 rounded text-primary"
+              : "px-4 py-2 rounded hover:text-primary"
+          }
+        >
+          Contacts
         </NavLink>
       </li>
     </>
