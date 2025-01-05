@@ -1,4 +1,3 @@
-import { NavLink } from "react-router-dom";
 import { Link } from "react-scroll";
 import logo from "../../assets/logo.png";
 
@@ -110,9 +109,12 @@ const Navbar = () => {
 
       <div className="navbar-end">
         <div className="p-2">
-          <button className="w-full px-8 py-3 text-lg text-white hover:text-black hover:bg-white  bg-primary rounded-lg duration-300">
+          <Link
+            to="contacts"
+            className="w-full px-8 py-3 text-lg text-white hover:text-black hover:bg-white  bg-primary rounded-lg duration-300"
+          >
             Hire Me
-          </button>
+          </Link>
         </div>
       </div>
     </div>
