@@ -8,6 +8,7 @@ const Education = () => {
 
   return (
     <div
+      id="education"
       data-aos="fade-up"
       data-aos-duration="1000"
       className="w-11/12 mx-auto flex flex-col items-center py-28"

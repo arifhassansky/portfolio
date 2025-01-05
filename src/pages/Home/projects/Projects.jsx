@@ -16,7 +16,12 @@ function Projects() {
   }, []);
 
   return (
-    <section data-aos="fade-up" data-aos-duration="1000" className="py-10">
+    <section
+      id="projects"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      className="py-10"
+    >
       <div className="w-11/12 mx-auto">
         <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold text-center mb-12">
           Projects

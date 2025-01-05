@@ -106,7 +106,7 @@ const Banner = () => {
           </div>
 
           {/* Right Image */}
-          <div className="lg:w-1/2 mt-8 flex justify-end">
+          <div className=" lg:w-1/2 mt-8 flex justify-center">
             <img src={myPicture} alt="Arif Hassan" />
           </div>
         </div>

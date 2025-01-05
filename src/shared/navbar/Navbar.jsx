@@ -1,79 +1,75 @@
 import { NavLink } from "react-router-dom";
+import { Link } from "react-scroll";
 import logo from "../../assets/logo.png";
+
 const Navbar = () => {
   const navlinks = (
     <>
       <li>
-        <NavLink
+        <Link
           to="/"
-          className={({ isActive }) =>
-            isActive
-              ? "font-bold px-4 py-2 rounded text-primary"
-              : "px-4 py-2 rounded hover:text-primary"
-          }
+          smooth={true}
+          duration={500}
+          activeClass="font-bold text-primary"
+          className="px-4 py-2 rounded hover:text-primary"
         >
           Home
-        </NavLink>
+        </Link>
       </li>
       <li>
-        <NavLink
-          to="/about"
-          className={({ isActive }) =>
-            isActive
-              ? "font-bold px-4 py-2 rounded text-primary"
-              : "px-4 py-2 rounded hover:text-primary"
-          }
+        <Link
+          to="about"
+          smooth={true}
+          duration={500}
+          activeClass="font-bold text-primary"
+          className="px-4 py-2 rounded hover:text-primary"
         >
           About
-        </NavLink>
+        </Link>
       </li>
       <li>
-        <NavLink
-          to="/skills"
-          className={({ isActive }) =>
-            isActive
-              ? "font-bold px-4 py-2 rounded text-primary"
-              : "px-4 py-2 rounded hover:text-primary"
-          }
+        <Link
+          to="skills"
+          smooth={true}
+          duration={500}
+          activeClass="font-bold text-primary"
+          className="px-4 py-2 rounded hover:text-primary"
         >
           Skills
-        </NavLink>
+        </Link>
       </li>
       <li>
-        <NavLink
-          to="/education"
-          className={({ isActive }) =>
-            isActive
-              ? "font-bold px-4 py-2 rounded text-primary"
-              : "px-4 py-2 rounded hover:text-primary"
-          }
+        <Link
+          to="education"
+          smooth={true}
+          duration={500}
+          activeClass="font-bold text-primary"
+          className="px-4 py-2 rounded hover:text-primary"
         >
           Education
-        </NavLink>
+        </Link>
       </li>
       <li>
-        <NavLink
-          to="/projects"
-          className={({ isActive }) =>
-            isActive
-              ? "font-bold px-4 py-2 rounded text-primary"
-              : "px-4 py-2 rounded hover:text-primary"
-          }
+        <Link
+          to="projects"
+          smooth={true}
+          duration={500}
+          activeClass="font-bold text-primary"
+          className="px-4 py-2 rounded hover:text-primary"
         >
           Projects
-        </NavLink>
+        </Link>
       </li>
       <li>
-        <NavLink
-          to="/contacts"
-          className={({ isActive }) =>
-            isActive
-              ? "font-bold px-4 py-2 rounded text-primary"
-              : "px-4 py-2 rounded hover:text-primary"
-          }
+        <Link
+          to="contacts"
+          smooth={true}
+          duration={500}
+          activeClass="font-bold text-primary"
+          className="px-4 py-2 rounded hover:text-primary"
         >
           Contacts
-        </NavLink>
+        </Link>
       </li>
     </>
   );
