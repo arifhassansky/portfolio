@@ -4,7 +4,7 @@ import resume from "../../../assets/Arif's Resume.pdf";
 
 const Banner = () => {
   return (
-    <div className="pt-20">
+    <div id="banner" className="pt-20">
       <div className="w-11/12 mx-auto flex items-center justify-center">
         <div className="px-4 lg:flex lg:items-center">
           {/* Left Content */}
@@ -18,7 +18,7 @@ const Banner = () => {
             <p className="text-2xl text-primary h-8 lg:text-4xl font-bold my-4 leading-tight">
               <Typewriter
                 words={[
-                  "FrontEnd Web developer",
+                  "Frontend Web developer",
                   "Full Stack Developer",
                   "MERN Stack Web Developer",
                 ]}

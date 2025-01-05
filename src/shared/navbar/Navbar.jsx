@@ -6,7 +6,7 @@ const Navbar = () => {
     <>
       <li>
         <Link
-          to="/"
+          to="banner"
           smooth={true}
           duration={500}
           activeClass="font-bold text-primary"
