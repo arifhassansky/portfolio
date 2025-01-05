@@ -16,7 +16,7 @@ const Skills = () => {
       data-aos="fade-up"
       data-aos-duration="1000"
     >
-      <h1 className="md:text-[60px] text-[45px] pb-2 md:pb-4 underline text-center font-bold">
+      <h1 className="md:text-[60px] text-[45px] pb-2 md:pb-4 underline underline-offset-8 text-center font-bold">
         Skills
       </h1>
 
@@ -188,8 +188,8 @@ const Skills = () => {
 
         {/* Professional skills */}
         <div data-aos="fade-up" data-aos-duration="1000">
-          <h1 className="heading1 text-3xl text-center underline underline-offset-8 font-semibold mb-12">
-            Professional Skills
+          <h1 className="heading1 text-3xl text-center underline underline-offset-8 decoration-primary font-semibold mb-12">
+            Professional <span className="text-primary">Skills</span>
           </h1>
 
           <div className="professional-skills grid grid-cols-2 md:grid-cols-4 gap-10 text-center justify-center">

@@ -44,9 +44,9 @@ const Contact = () => {
       <div className="px-6 md:px-12">
         <div className="text-center mb-10">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-3">
-            Get in Touch
+            Get in <span className="text-primary">Touch</span>
           </h2>
-          <p className="text-lg ">We would love to hear from you!</p>
+          <p className="text-lg ">I would love to hear from you!</p>
         </div>
         <div className="flex flex-col md:flex-row justify-around items-center">
           {/* Left Section: Form */}

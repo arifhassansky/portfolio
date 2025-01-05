@@ -13,7 +13,7 @@ const About = () => {
       id="about"
       className="p-6 w-11/12 mx-auto my-20"
     >
-      <h2 className="text-6xl font-semibold mb-12 text-center underline decoration-primary">
+      <h2 className="text-6xl font-semibold mb-12 text-center underline decoration-primary underline-offset-8">
         About <span className="text-primary">Me</span>
       </h2>
       <p className="text-lg mb-4 ">
