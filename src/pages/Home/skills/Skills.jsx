@@ -22,7 +22,7 @@ const Skills = () => {
 
       <div className="skills-section">
         <div className="mb-12">
-          <div className="Technical-bars grid grid-cols-3 md:grid-cols-5 gap-10 md:max-w-7xl mx-4 md:mx-auto mt-10  pb-16 pt-8 justify-center">
+          <div className="Technical-bars grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-10 md:max-w-7xl mx-8  mt-10  pb-16 pt-8 justify-center">
             <div className="bar flex flex-col items-center text-center">
               <FaHtml5 className="html w-[132px] h-10 text-[#c95d2e]" />
               <div className="info text-center mt-2">

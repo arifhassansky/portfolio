@@ -8,7 +8,7 @@ const Banner = () => {
       <div className="w-11/12 mx-auto flex items-center justify-center">
         <div className="px-4 lg:flex lg:items-center">
           {/* Left Content */}
-          <div className="lg:w-1/2 text-center lg:text-left mt-8 md:mt-0">
+          <div className="lg:w-1/2 text-center lg:text-left mt-8 lg:mt-0">
             <p className="text-primary text-xl font-bold flex items-center justify-center lg:justify-start">
               Hi, I&apos;m passionate about coding!
             </p>
@@ -33,7 +33,7 @@ const Banner = () => {
               applications using the latest technologies like React, Node.js,
               and MongoDB. Let&apos;s build something amazing together!
             </p>
-            <div className="flex items-center">
+            <div className="flex items-center justify-center lg:justify-start">
               <button
                 onClick={() =>
                   window.open(
@@ -41,19 +41,19 @@ const Banner = () => {
                     "_blank"
                   )
                 }
-                className="btn text-white border-none bg-primary drop-shadow-2xl
-                 mt-6 px-6 py-2 hover:text-black hover:bg-white text-lg transition-all duration-300"
+                className="btn text-white border-none bg-primary 
+                 mt-6 px-3 md:px-6 py-2 hover:text-black hover:bg-white text-lg transition-all duration-300"
               >
                 View Resume
               </button>
-              <button className="btn ml-4 text-white border-none bg-primary mt-6 px-6 py-2 hover:text-black hover:bg-white text-lg transition-all duration-300">
+              <button className="btn ml-4 text-white border-none bg-primary mt-6 px-3 md:px-6 py-2 hover:text-black hover:bg-white text-lg transition-all duration-300">
                 <a href={resume} download="arif's_resume.pdf">
                   Download Resume
                 </a>
               </button>
             </div>
             {/* Social Icons */}
-            <div className="flex ml-24 mt-8 space-x-4 justify-center lg:justify-start">
+            <div className="flex  lg:ml-24 mt-8 space-x-4 justify-center lg:justify-start">
               <a
                 href="https://www.facebook.com/arifhearthacker/"
                 target="_blank"
