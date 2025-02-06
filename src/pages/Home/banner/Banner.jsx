@@ -28,7 +28,7 @@ const Banner = () => {
                 loop
               />
             </p>
-            <p className="text-gray-600 mt-4">
+            <p className="text-gray-500 mt-4">
               I specialize in creating fast, responsive, and user-friendly web
               applications using the latest technologies like React, Node.js,
               and MongoDB. Let&apos;s build something amazing together!
@@ -37,7 +37,7 @@ const Banner = () => {
               <button
                 onClick={() =>
                   window.open(
-                    "https://drive.google.com/file/d/1mCeROCK6NnnEb7QMbiC-UUdLfRuQ5Dyf/view?usp=sharing",
+                    "https://drive.google.com/file/d/1bGQc_ZwBKQ0Tv9eBpbRa-c5huHLINZb3/view?usp=sharing",
                     "_blank"
                   )
                 }

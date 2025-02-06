@@ -15,7 +15,7 @@ const Education = () => {
     >
       {/* Header Section */}
       <h1 className="text-3xl font-bold text-center mb-12">
-        <span className="text-3xl md:text-5xl lg:text-6xl">
+        <span className="text-2xl md:text-3xl lg:text-4xl">
           Educational <span className="text-primary">Qualifications</span>
         </span>
       </h1>
@@ -30,34 +30,36 @@ const Education = () => {
         </div>
 
         {/* Education Cards */}
-        <div className="grid lg:grid-cols-3 w-full">
-          <div className=" p-6 text-center border-r border-r-gray-100">
-            <h4 className="font-bold text-lg">B.S.C in Physics</h4>
-            <p className="text-sm text-gray-500">
+        <div className="grid lg:grid-cols-3 gap-4 w-full">
+          <div className=" p-6 text-center border-r border-r-gray-100 shadow-lg shadow-primary">
+            <h4 className="font-bold text-lg mb-2">B.S.C in Physics</h4>
+            <p className="text-sm text-gray-400">
               Mohammadpur Kendriya College(2019 - running)
             </p>
-            <p className="text-sm mt-2 text-gray-600">
+            <p className="text-sm mt-2 text-gray-400">
               Focused on quantum mechanics, thermodynamics, and astrophysics
               with hands-on lab experiments and research projects.
             </p>
           </div>
-          <div className="p-6 text-center border-r border-r-gray-100">
-            <h4 className="font-bold text-lg">H.S.C</h4>
-            <p className="text-sm text-gray-500">
+          <div className="p-6 text-center border-r border-r-gray-100 shadow-lg shadow-primary">
+            <h4 className="font-bold text-lg mb-2">H.S.C</h4>
+            <p className="text-sm text-gray-400">
               Mymensingh City College (2017 - 2019)
             </p>
-            <p className="text-sm mt-2 text-gray-600">
+            <p className="text-sm mt-2 text-gray-400">
               Achieved a strong foundation in Physics, Chemistry, and
               Mathematics, with excellent results in the Higher Secondary
               Certificate (HSC) examination.
             </p>
           </div>
-          <div className=" p-6 text-center">
-            <h4 className="font-bold text-lg">Secondary School Education</h4>
-            <p className="text-sm text-gray-500">
+          <div className=" p-6 text-center shadow-lg shadow-primary">
+            <h4 className="font-bold text-lg mb-2">
+              Secondary School Education
+            </h4>
+            <p className="text-sm text-gray-400">
               Jamalpur Zilla School (2012 - 2017)
             </p>
-            <p className="text-sm mt-2 text-gray-600">
+            <p className="text-sm mt-2 text-gray-400">
               Completed secondary education with a focus on science and
               mathematics, building a strong academic foundation.
             </p>

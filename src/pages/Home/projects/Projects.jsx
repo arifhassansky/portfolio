@@ -23,25 +23,25 @@ function Projects() {
       className="py-10"
     >
       <div className="w-11/12 mx-auto">
-        <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold text-center mb-12">
+        <h2 className="text-3xl md:text-3xl lg:text-4xl font-bold text-center mb-12">
           Projects
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project, index) => (
             <div
               key={index}
-              className="bg-white shadow-md rounded-lg overflow-hidden hover:shadow-lg transition-shadow"
+              className="bg-[#1A1A1D] hover:shadow-primary shadow hover:scale-105 max-w-sm rounded-lg overflow-hidden duration-1000 hover:shadow-lg transition-all"
             >
               <img
                 src={project.image}
                 alt={project.name}
                 className="w-full h-48 object-cover"
               />
-              <div className="p-4 text-center">
+              <div className="p-4">
                 <h3 className="text-xl font-bold">{project.name}</h3>
                 <Link
                   to={`/details/${project.id}`}
-                  className="inline-block px-4 py-2 bg-primary text-white rounded-md hover:bg-black hover:text-white transition-colors"
+                  className="w-full mt-4 btn border-none bg-primary text-white rounded-md hover:bg-black hover:text-primary transition-colors"
                 >
                   View More
                 </Link>

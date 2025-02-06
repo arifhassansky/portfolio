@@ -12,11 +12,11 @@ const Skills = () => {
   return (
     <div
       id="skills"
-      className="lg:mt-32 mt-20"
+      className="lg:mt-32 mt-20 w-11/12 mx-auto"
       data-aos="fade-up"
       data-aos-duration="1000"
     >
-      <h1 className="md:text-[60px] text-[45px] pb-2 md:pb-4 underline underline-offset-8 text-center font-bold">
+      <h1 className="text-2xl md:text-3xl lg:text-4xl pb-2 md:pb-4 underline underline-offset-8 text-center font-bold">
         Skills
       </h1>
 
@@ -24,7 +24,7 @@ const Skills = () => {
         <div className="mb-12">
           <div className="Technical-bars grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-10 md:max-w-7xl mx-8  mt-10  pb-16 pt-8 justify-center">
             <div className="bar flex flex-col items-center text-center">
-              <FaHtml5 className="html w-[132px] h-10 text-[#c95d2e]" />
+              <FaHtml5 className="html w-[132px] h-10 text-[#c95d2e] hover:scale-110 duration-300" />
               <div className="info text-center mt-2">
                 <span className="text-lg font-medium">HTML5</span>
               </div>
@@ -32,7 +32,7 @@ const Skills = () => {
 
             <div className="bar flex flex-col items-center text-center">
               <img
-                className="style h-10 mx-auto"
+                className="style h-10 mx-auto hover:scale-110 duration-300"
                 src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"
                 alt="css"
               />
@@ -43,7 +43,7 @@ const Skills = () => {
 
             <div className="bar flex flex-col items-center text-center">
               <img
-                className="style h-10 mx-auto"
+                className="style h-10 mx-auto hover:scale-110 duration-300"
                 src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"
                 alt="javascript"
               />
@@ -54,7 +54,7 @@ const Skills = () => {
 
             <div className="bar flex flex-col items-center text-center">
               <img
-                className="style h-10 mx-auto"
+                className="style h-10 mx-auto hover:scale-110 duration-300"
                 src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"
                 alt="react"
               />
@@ -65,7 +65,7 @@ const Skills = () => {
 
             <div className="bar flex flex-col items-center text-center">
               <img
-                className="style h-10 mx-auto"
+                className="style h-10 mx-auto hover:scale-110 duration-300"
                 src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white"
                 alt="mongodb"
               />
@@ -76,7 +76,7 @@ const Skills = () => {
 
             <div className="bar flex flex-col items-center text-center">
               <img
-                className="style h-10 mx-auto"
+                className="style h-10 mx-auto hover:scale-110 duration-300"
                 src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB"
                 alt="express.js"
               />
@@ -87,7 +87,7 @@ const Skills = () => {
 
             <div className="bar flex flex-col items-center text-center">
               <img
-                className="style h-10 mx-auto"
+                className="style h-10 mx-auto hover:scale-110 duration-300"
                 src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"
                 alt="node.js"
               />
@@ -98,7 +98,7 @@ const Skills = () => {
 
             <div className="bar flex flex-col items-center text-center">
               <img
-                className="style h-10 mx-auto"
+                className="style h-10 mx-auto hover:scale-110 duration-300"
                 src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white"
                 alt="vercel"
               />
@@ -109,7 +109,7 @@ const Skills = () => {
 
             <div className="bar flex flex-col items-center text-center">
               <img
-                className="style h-10 mx-auto"
+                className="style h-10 mx-auto hover:scale-110 duration-300"
                 src="https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white"
                 alt="canva"
               />
@@ -120,7 +120,7 @@ const Skills = () => {
 
             <div className="bar flex flex-col items-center text-center">
               <img
-                className="style h-10 mx-auto"
+                className="style h-10 mx-auto hover:scale-110 duration-300"
                 src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white"
                 alt="figma"
               />
@@ -131,7 +131,7 @@ const Skills = () => {
 
             <div className="bar flex flex-col items-center text-center">
               <img
-                className="style h-10 mx-auto"
+                className="style h-10 mx-auto hover:scale-110 duration-300"
                 src="https://img.shields.io/badge/chart.js-F5788D.svg?style=for-the-badge&logo=chart.js&logoColor=white"
                 alt="chart.js"
               />
@@ -142,7 +142,7 @@ const Skills = () => {
 
             <div className="bar flex flex-col items-center text-center">
               <img
-                className="style h-10 mx-auto"
+                className="style h-10 mx-auto hover:scale-110 duration-300"
                 src="https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white"
                 alt="ESLint"
               />
@@ -153,7 +153,7 @@ const Skills = () => {
 
             <div className="bar flex flex-col items-center text-center">
               <img
-                className="style h-10 mx-auto"
+                className="style h-10 mx-auto hover:scale-110 duration-300"
                 src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white"
                 alt="tailwind css"
               />
@@ -164,7 +164,7 @@ const Skills = () => {
 
             <div className="bar flex flex-col items-center text-center">
               <img
-                className="style h-10 mx-auto"
+                className="style h-10 mx-auto hover:scale-110 duration-300"
                 src="https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white"
                 alt="npm"
               />
@@ -175,7 +175,7 @@ const Skills = () => {
 
             <div className="bar flex flex-col items-center text-center">
               <img
-                className="style h-10 mx-auto"
+                className="style h-10 mx-auto hover:scale-110 duration-300"
                 src="https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens"
                 alt="jwt"
               />
