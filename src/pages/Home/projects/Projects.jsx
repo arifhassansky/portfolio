@@ -19,14 +19,14 @@ function Projects() {
     <section
       id="projects"
       data-aos="fade-up"
-      data-aos-duration="1000"
+      data-aos-duration="600"
       className="py-10"
     >
       <div className="w-11/12 mx-auto">
         <h2 className="text-3xl md:text-3xl lg:text-4xl font-bold text-center mb-12">
           Projects
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {projects.map((project, index) => (
             <div
               key={index}
@@ -39,12 +39,24 @@ function Projects() {
               />
               <div className="p-4">
                 <h3 className="text-xl font-bold">{project.name}</h3>
-                <Link
-                  to={`/details/${project.id}`}
-                  className="w-full mt-4 btn border-none bg-primary text-white rounded-md hover:bg-black hover:text-primary transition-colors"
-                >
-                  View More
-                </Link>
+                <div className="flex flex-wrap gap-2 mt-5">
+                  {project.techStack.map((techStack, index) => (
+                    <button
+                      key={index}
+                      className="bg-primary text-black px-3 py-1 text-center rounded-full text-sm"
+                    >
+                      {techStack}
+                    </button>
+                  ))}
+                </div>
+                <div className="mt-6 w-full">
+                  <Link
+                    to={`/details/${project.id}`}
+                    className="border-none btn btn-sm min-w-full text-white hover:text-black bg-teal-500 rounded-md hover:bg-white  transition-colors"
+                  >
+                    View More
+                  </Link>
+                </div>
               </div>
             </div>
           ))}

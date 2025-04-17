@@ -1,77 +1,102 @@
-import { Link } from "react-scroll";
+import { useLocation, useNavigate } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
 import logo from "../../assets/logo.png";
 
 const Navbar = () => {
+  const location = useLocation();
+  const navigate = useNavigate();
+
+  const handleScroll = (to) => {
+    if (location.pathname !== "/") {
+      navigate("/");
+      setTimeout(() => {
+        document.getElementById(to)?.scrollIntoView({ behavior: "smooth" });
+      }, 1000);
+    }
+  };
+
   const navlinks = (
     <>
       <li>
-        <Link
+        <ScrollLink
           to="banner"
           smooth={true}
-          duration={500}
+          duration={1000}
           activeClass="font-bold text-primary"
           className="px-4 py-2 rounded hover:text-primary"
+          onClick={() => handleScroll("banner")}
         >
           Home
-        </Link>
+        </ScrollLink>
       </li>
       <li>
-        <Link
+        <ScrollLink
           to="about"
           smooth={true}
-          duration={500}
+          duration={1000}
+          offset={-85}
           activeClass="font-bold text-primary"
           className="px-4 py-2 rounded hover:text-primary"
+          onClick={() => handleScroll("about")}
         >
           About
-        </Link>
+        </ScrollLink>
       </li>
       <li>
-        <Link
+        <ScrollLink
           to="skills"
           smooth={true}
-          duration={500}
+          duration={1000}
+          offset={-190}
           activeClass="font-bold text-primary"
           className="px-4 py-2 rounded hover:text-primary"
+          onClick={() => handleScroll("skills")}
         >
           Skills
-        </Link>
+        </ScrollLink>
       </li>
       <li>
-        <Link
+        <ScrollLink
           to="education"
           smooth={true}
-          duration={500}
+          duration={1000}
+          offset={-140}
           activeClass="font-bold text-primary"
           className="px-4 py-2 rounded hover:text-primary"
+          onClick={() => handleScroll("education")}
         >
           Education
-        </Link>
+        </ScrollLink>
       </li>
       <li>
-        <Link
+        <ScrollLink
           to="projects"
           smooth={true}
-          duration={500}
+          duration={1000}
+          offset={-140}
           activeClass="font-bold text-primary"
           className="px-4 py-2 rounded hover:text-primary"
+          onClick={() => handleScroll("projects")}
         >
           Projects
-        </Link>
+        </ScrollLink>
       </li>
       <li>
-        <Link
+        <ScrollLink
           to="contacts"
           smooth={true}
-          duration={500}
+          duration={1000}
+          offset={-85}
           activeClass="font-bold text-primary"
           className="px-4 py-2 rounded hover:text-primary"
+          onClick={() => handleScroll("contacts")}
         >
           Contacts
-        </Link>
+        </ScrollLink>
       </li>
     </>
   );
+
   return (
     <div className="navbar fixed z-50 bg-[#051129] px-10">
       <div className="navbar-start">
@@ -109,12 +134,15 @@ const Navbar = () => {
 
       <div className="navbar-end">
         <div className="p-2">
-          <Link
+          <ScrollLink
             to="contacts"
-            className="w-full px-8 py-3 text-lg text-white hover:text-black hover:bg-white  bg-primary rounded-lg duration-300"
+            smooth={true}
+            duration={1000}
+            className="w-full px-8 py-3 text-lg text-white hover:text-black hover:bg-white bg-primary rounded-lg duration-300"
+            onClick={() => handleScroll("contacts")}
           >
             Hire Me
-          </Link>
+          </ScrollLink>
         </div>
       </div>
     </div>

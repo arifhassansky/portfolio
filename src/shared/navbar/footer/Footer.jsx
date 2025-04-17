@@ -3,20 +3,19 @@ import ScrollToTop from "react-scroll-to-top";
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-gray-300">
-      <div className="w-11/12 mx-auto flex flex-col lg:flex-row items-center justify-between py-2">
+      <div className="w-11/12 mx-auto flex flex-col lg:flex-row items-center justify-between pt-2 pb-4">
         {/* Left Section */}
         <div className="mb-2 md:mb-0 text-center lg:text-left">
           <h3 className="text-xl font-bold text-white">Md. Arif Hassan</h3>
-          <p className="text-sm mt-2">
-            Web Developer | Passionate about crafting clean and
-            <br className="hidden lg:block" />
-            user-friendly experiences.
+          <p className="text-sm mt-1">
+            Web Developer | Passionate about crafting clean{" "}
+            <br className="hidden lg:block" /> and user-friendly experiences.
           </p>
         </div>
         {/* Center Section */}
         <div className="flex space-x-6 mb-4 md:mb-0">
           {/* Social Icons */}
-          <div className="flex ml-20 mt-6 space-x-4 justify-center lg:justify-start">
+          <div className="flex  items-center ml-20 mt-6 space-x-4 justify-center lg:justify-start">
             <a
               href="https://www.facebook.com/arifhearthacker/"
               target="_blank"
@@ -42,7 +41,7 @@ const Footer = () => {
               />
             </a>
             <a
-              href="https://www.linkedin.com/in/arif-hassan-8a4642317/"
+              href="https://www.linkedin.com/in/arif-hassan-dev"
               target="_blank"
               rel="noopener noreferrer"
               className="transition-transform hover:scale-110"
@@ -54,15 +53,15 @@ const Footer = () => {
               />
             </a>
             <a
-              href="https://github.com/arifhassansky?tab=repositories"
+              href="https://github.com/arifhassansky"
               target="_blank"
               rel="noopener noreferrer"
               className="transition-transform hover:scale-110"
             >
               <img
-                src="https://i.imgur.com/oATe77x.png"
+                src="https://i.ibb.co.com/60fMj740/github.webp"
                 alt="Github"
-                className="w-7 h-7 rounded-full bg-white"
+                className="w-10 h-10 rounded-full bg-white"
               />
             </a>
           </div>

@@ -34,8 +34,9 @@ const About = () => {
           <p className="text-lg mb-4 text-justify">
             I&apos;m comfortable working with technologies like{" "}
             <span className="text-primary">
-              HTML, CSS, and JavaScript, React,
-            </span>{" "}
+              HTML, CSS, Tailwind, JavaScript, React, Next.js, Typescript,
+              Redux, Firebase, Node.js, Express.js, MongoDB and Mongoose{" "}
+            </span>
             and I&apos;m currently diving deeper into React to build dynamic,
             interactive user interfaces. I enjoy working on projects that allow
             me to improve my skills and apply new concepts, and I&apos;m always

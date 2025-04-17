@@ -1,35 +1,73 @@
 [
   {
     "id": 1,
+    "name": "Elite Explore",
+    "image": "http://res.cloudinary.com/dl1zmxord/image/upload/v1742289615/xs1wd395m5oaugmyzr3m.png",
+    "techStack": [
+      "Tailwind CSS",
+      "React",
+      "Express JS",
+      "Firebase",
+      "MongoDB",
+      "Node.js"
+    ],
+    "description": "Elite Explore is an advanced travel platform designed to help tourists explore Bangladesh with ease. The platform offers detailed insights into tourist attractions, historical sites, and local experiences. Users can browse destinations, read curated travel guides, and plan personalized itineraries. The system includes role-based dashboards: tourists can explore destinations and book guided tours, tour guides can manage their services and interact with travelers, while admins oversee the platform's functionality. It features interactive maps using Leaflet, user-generated reviews, and real-time booking options. The responsive design ensures a seamless experience across all devices, making travel planning efficient and engaging.",
+    "liveLink": "https://elite-explore.netlify.app",
+    "githubLink": "https://github.com/arifhassansky/Elite-Explore",
+    "challenges": "Faced challenges with integrating real-time mapping features using Leaflet, ensuring accurate location data, and optimizing search results for better user experience. Implementing a secure authentication system for role-based access also required careful handling.",
+    "improvements": "Planning to add AI-powered itinerary suggestions based on user preferences, enhance the user review system with media uploads, and integrate secure real-time tour booking with payment options. Additionally, multilingual support and an advanced filtering system for destinations are in development."
+  },
+  {
+    "id": 2,
+    "name": "Roomify Platform",
+    "image": "https://i.ibb.co.com/6PyDQKV/Screenshot-2025-01-05-001306.png",
+    "techStack": [
+      "React",
+      "Express JS",
+      "Tailwind CSS",
+      "Firebase",
+      "MongoDB",
+      "Node.js"
+    ],
+    "description": "Roomify Platform is a hotel booking solution that offers users a seamless experience to explore, book, and manage hotel rooms with secure authentication. With a user-friendly interface, interactive features, and robust booking management, this platform ensures a smooth experience for travelers. Roomify allows users to browse available rooms, check real-time availability, and book accommodations with ease. It provides a secure and efficient system for managing bookings, user profiles, and payment processing. The platform also integrates interactive maps through React Leaflet for a better exploration experience. By implementing features such as real-time updates, customer reviews, and booking history, it ensures that users have a smooth and engaging experience. Additionally, Roomify’s responsive design guarantees compatibility across all devices, making it accessible for both desktop and mobile users.",
+    "liveLink": "https://roomifysky.netlify.app",
+    "githubLink": "https://github.com/arifhassansky/roomify",
+    "challenges": "Faced challenges with integrating interactive maps and ensuring smooth real-time authentication via Firebase. Achieving optimal booking management functionality while ensuring the platform’s scalability was also a key challenge.",
+    "improvements": "Planning to enhance room search functionality, improve performance, and add multi-language support. Further enhancements include developing a rating system for hotels and introducing advanced filters to improve the room search experience."
+  },
+  {
+    "id": 3,
+    "name": "Visa Navigator Portal",
+    "image": "https://i.ibb.co.com/vdR5Zsq/Screenshot-2025-01-05-001156.png",
+    "techStack": [
+      "React",
+      "Express JS",
+      "Tailwind CSS",
+      "Firebase",
+      "MongoDB",
+      "Node.js"
+    ],
+    "description": "Visa Navigator Portal simplifies the visa application process with a user-friendly platform. It helps users check visa requirements, apply online, and track their application status in real-time. The portal’s main feature is the ability to guide users through the entire visa process, from selecting the right visa type to submitting the required documentation. With a secure and responsive design, the platform provides a seamless experience for travelers, students, and job seekers. Users can track the status of their applications and receive real-time updates on any changes. The platform also offers an easy-to-use interface, where users can store documents, fill out forms, and access helpful resources related to visa applications. Visa Navigator Portal leverages Firebase for authentication, ensuring that user data is kept secure. By providing a step-by-step guide, the platform eliminates confusion and reduces the stress of navigating complex visa requirements.",
+    "liveLink": "https://visa-navigator.netlify.app",
+    "githubLink": "https://github.com/arifhassansky/visa-navigator-client",
+    "challenges": "Struggled with integrating real-time application tracking and ensuring secure authentication through Firebase. Handling different visa requirements for various countries and providing accurate, up-to-date information posed another challenge.",
+    "improvements": "Planning to implement multilingual support, enhance data filtering options, and improve overall performance with optimization techniques. Future improvements include adding more visa types and providing personalized notifications for each user’s visa progress."
+  },
+  {
+    "id": 4,
     "name": "Lingo Bingo",
     "image": "https://i.ibb.co.com/2vxpZWx/Screenshot-2025-01-05-001030.png",
-    "techStack": "React, Firebase, Tailwind CSS, React Router DOM, React CountUp, AOS, React Toastify",
+    "techStack": [
+      "React",
+      "Firebase",
+      "Tailwind CSS",
+      "React Router DOM",
+      "React CountUp"
+    ],
     "description": "Lingo Bingo is a fun and interactive language learning application designed to help users expand their vocabulary and improve communication skills in a specific language. With features like vocabulary lessons, tutorials, and audio pronunciation, this app makes learning enjoyable and effective.",
     "liveLink": "https://lingo-bingo.netlify.app",
     "githubLink": "https://github.com/arifhassansky/lingo-bingo",
     "challenges": "Faced challenges in implementing responsive design across multiple devices and integrating Google Sign-In with Firebase for user authentication.",
     "improvements": "Planning to enhance the performance by optimizing images, lazy loading, adding more language support, and incorporating interactive quizzes."
-  },
-  {
-    "id": 2,
-    "name": "Visa Navigator Portal",
-    "image": "https://i.ibb.co.com/vdR5Zsq/Screenshot-2025-01-05-001156.png",
-    "techStack": "React, Tailwind CSS, Node.js, Express.js, MongoDB, Firebase, React Router DOM",
-    "description": "Visa Navigator Portal simplifies the visa application process with a user-friendly platform. It helps users check visa requirements, apply online, and track their application status in real-time. With a secure and responsive design, the portal provides a seamless experience for travelers, students, and job seekers.",
-    "liveLink": "https://visa-navigator.netlify.app",
-    "githubLink": "https://github.com/arifhassansky/visa-navigator-client",
-    "challenges": "Struggled with integrating real-time application tracking and ensuring secure authentication through Firebase.",
-    "improvements": "Planning to implement multilingual support, enhance data filtering options, and improve overall performance with optimization techniques."
-  },
-  {
-    "id": 3,
-    "name": "Roomify Platform",
-    "image": "https://i.ibb.co.com/6PyDQKV/Screenshot-2025-01-05-001306.png",
-    "techStack": "React, Express JS, Tailwind CSS, Firebase, React Router, React Icons, React Modal, React Slick, React Leaflet",
-    "description": "Roomify Platform is a hotel booking solution that offers users a seamless experience to explore, book, and manage hotel rooms with secure authentication. With a user-friendly interface, interactive features, and robust booking management, this platform ensures a smooth experience for travelers.",
-    "liveLink": "https://roomifysky.netlify.app",
-    "githubLink": "https://github.com/arifhassansky/roomify",
-    "challenges": "Faced challenges with integrating interactive maps and ensuring smooth real-time authentication via Firebase.",
-    "improvements": "Planning to enhance room search functionality, improve performance, and add multi-language support."
   }
 ]

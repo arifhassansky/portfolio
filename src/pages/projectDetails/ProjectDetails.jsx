@@ -21,7 +21,7 @@ const ProjectDetails = () => {
         <img
           src={project.image}
           alt={project.name}
-          className="w-full rounded-lg shadow-md hover:scale-105 duration-300"
+          className="lg:w-[80%] mx-auto rounded-lg shadow-md hover:scale-105 duration-300"
         />
         <div className="flex justify-center gap-4 mt-8">
           <a
@@ -57,7 +57,7 @@ const ProjectDetails = () => {
             Technologies Used
           </h3>
           <ul className="mt-4 space-y-2 text-gray-200">
-            {project.techStack?.split(", ").map((tech, index) => (
+            {project.techStack?.map((tech, index) => (
               <li key={index} className="flex items-center">
                 <span className="mr-2">🔹</span>
                 {tech}
@@ -72,13 +72,17 @@ const ProjectDetails = () => {
             <h3 className="text-2xl font-semibold text-primary">
               Challenges Faced
             </h3>
-            <p className="mt-4 text-gray-200">{project.challenges}</p>
+            <p className="mt-4 text-gray-200 text-justify">
+              {project.challenges}
+            </p>
           </div>
           <div>
             <h3 className="text-2xl font-semibold text-primary">
               Future Improvements
             </h3>
-            <p className="mt-4 text-gray-200">{project.improvements}</p>
+            <p className="mt-4 text-gray-200 text-justify">
+              {project.improvements}
+            </p>
           </div>
         </div>
       </div>

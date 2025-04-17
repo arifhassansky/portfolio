@@ -1,6 +1,6 @@
 import myPicture from "../../../assets/arif.png";
 import { Typewriter } from "react-simple-typewriter";
-import resume from "../../../assets/Arif's Resume.pdf";
+import resume from "../../../assets/Arif's Frontend Resume.pdf";
 
 const Banner = () => {
   return (
@@ -28,16 +28,17 @@ const Banner = () => {
                 loop
               />
             </p>
-            <p className="text-gray-500 mt-4">
+            <p className="text-gray-500 mt-4 text-justify">
               I specialize in creating fast, responsive, and user-friendly web
-              applications using the latest technologies like React, Node.js,
-              and MongoDB. Let&apos;s build something amazing together!
+              applications using the latest technologies like Javascript, React,
+              Next.js, Typescript, Node.js, and Mongoose. Let&apos;s build
+              something amazing together!
             </p>
             <div className="flex items-center justify-center lg:justify-start">
               <button
                 onClick={() =>
                   window.open(
-                    "https://drive.google.com/file/d/1bGQc_ZwBKQ0Tv9eBpbRa-c5huHLINZb3/view?usp=sharing",
+                    "https://drive.google.com/file/d/1wjNHk3ERLh8VyEiJOXUVxFh0xqqCsKk1/view?usp=sharing",
                     "_blank"
                   )
                 }
@@ -47,7 +48,7 @@ const Banner = () => {
                 View Resume
               </button>
               <button className="btn ml-4 text-white border-none bg-primary mt-6 px-3 md:px-6 py-2 hover:text-black hover:bg-white text-lg transition-all duration-300">
-                <a href={resume} download="arif's_resume.pdf">
+                <a href={resume} download="Arif's Frontend Resume.pdf">
                   Download Resume
                 </a>
               </button>
@@ -79,7 +80,7 @@ const Banner = () => {
                 />
               </a>
               <a
-                href="https://www.linkedin.com/in/arif-hassan-8a4642317/"
+                href="https://www.linkedin.com/in/arif-hassan-dev"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="transition-transform hover:scale-110"
@@ -91,7 +92,7 @@ const Banner = () => {
                 />
               </a>
               <a
-                href="https://github.com/arifhassansky?tab=repositories"
+                href="https://github.com/arifhassansky"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="transition-transform hover:scale-110"
